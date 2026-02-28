@@ -21,95 +21,91 @@ samples, guidance on mobile development, and a full API reference.
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# SheSafe 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Electra
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Gayathry Rajeev - CET
+- Member 2: Parvathy Nair - CET
 
 ### Hosted Project Link
-[mention your project hosted link here]
-
+https://github.com/gayurajeev/Flutter-Shesafeapp
 ### Project Description
-[2-3 lines about what your project does]
-
+SheSafe is a women-focused mobile application that helps users locate nearby washrooms within one kilometer and instantly alert emergency contacts during unsafe situations, promoting dignity, mobility, and safety in public spaces.
 ### The Problem statement
-[What problem are you solving?]
+Women lack a reliable, women-centric digital solution that simultaneously provides nearby washroom access and immediate safety support in unfamiliar or emergency situations.
 
 ### The Solution
-[How are you solving it?]
+We developed SheSafe to effectively address the challenges of accessibility and personal safety faced by women in public spaces. The application enables users to locate nearby washrooms within a one-kilometer radius based on their current location, ensuring quick access during urgent situations.
 
----
+To support informed decision-making, SheSafe provides reviews, ratings, and detailed features of each washroom, such as cleanliness, availability, and safety conditions. This transparency helps users choose facilities with confidence.
 
-## Technical Details
+In addition to accessibility, SheSafe prioritizes user safety through an Emergency SOS feature. With a single tap, the app sends an instant alert message along with the user’s location to pre-saved emergency contacts, enabling timely assistance during threatening or uncomfortable situations.
 
-### Technologies/Components Used
+By combining essential public infrastructure access with real-time safety support, SheSafe serves as a reliable digital companion, empowering women to move freely and confidently in any environment.
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+### Technical Details
+Technologies / Components Used
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+For Software:
 
----
+Languages used: Dart
+
+Frameworks used: Flutter
+
+Libraries / Packages used:
+
+geolocator – for GPS location access
+
+google_maps_flutter / flutter_map – for map visualization
+
+url_launcher / sms – for emergency SOS alerts
+
+shared_preferences – for storing emergency contacts
+
+Tools used:
+
+Android Studio / VS Code
+
+Git & GitHub
+
+Flutter SD
+
+
 
 ## Features
+Nearby Washroom Finder:
+Finds washrooms within a 1 km radius based on the user’s current location.
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+Ratings & Reviews:
+Displays user reviews, ratings, and available facilities to help users choose safe and clean washrooms.
 
----
+Emergency SOS:
+Sends an instant alert message with live location to saved emergency contacts.
+
+User-Friendly Interface:
+Simple, fast, and intuitive UI designed for quick access during emerge
+
 
 ## Implementation
-
-### For Software:
-
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
-
-## Project Documentation
+For Software
+Installation
+git clone https://github.com/gayurajeev/Flutter-Shesafeapp.git
+cd Flutter-Shesafeapp
+flutter pub get
+Run
+flutter run
 
 ### For Software:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1440" height="900" alt="Screenshot 2026-02-28 at 5 48 12 PM" src="https://github.com/user-attachments/assets/f23653f2-ad80-4755-9d96-6d1752960a34" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 #### Diagrams
 
@@ -125,30 +121,7 @@ List the key features of your project:
 
 ---
 
-### For Hardware:
 
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 ## Additional Documentation
 
@@ -212,12 +185,6 @@ List the key features of your project:
 4. Follow the installation prompts
 5. Open the app and enjoy!
 
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
 
 **Building from Source:**
 ```bash
@@ -234,46 +201,6 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
 
 **Final Assembly:**
 ![Final Build](images/final-build.jpg)
@@ -281,42 +208,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Scripts/CLI Tools:
 
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
 
 #### Demo Output
 
@@ -377,17 +269,7 @@ python script.py -v --format json data.json
 
 ---
 
-## Project Demo
 
-### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
-
-*Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
